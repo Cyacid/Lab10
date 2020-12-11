@@ -68,9 +68,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         googleMap.addMarker(m1);
 
         MarkerOptions m2 = new MarkerOptions();
-        m1.position(new LatLng(25.047924,121.517081));
-        m1.title("台北車站");
-        m1.draggable(true);
+        m2.position(new LatLng(25.047924,121.517081));
+        m2.title("台北車站");
+        m2.draggable(true);
         googleMap.addMarker(m2);
 
         PolylineOptions polylineOptions = new PolylineOptions();
